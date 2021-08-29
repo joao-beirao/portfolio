@@ -5,9 +5,14 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
-  <div>
-    Hero
-  </div>
+  <Section row nopadding>
+    <LeftSection>
+      <SectionTitle main center>
+        Welcome to <br/>
+        My Portfolio 
+      </SectionTitle>
+    </LeftSection>
+  </Section>
 );
 
 export default Hero;
