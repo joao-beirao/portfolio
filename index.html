@@ -30,7 +30,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features" style="color: pink;">About me</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#aboutMe" style="color: pink;">About me</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#download" style="color: pink;">Projects</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#features" style="color: pink;">School</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#download" style="color: pink;">Experience</a></li>
@@ -54,7 +54,7 @@
                         <!-- Mashead text and app badges-->
                         <div class="mb-5 mb-lg-0 text-center text-lg-start">
                             <h1 class="display-1 lh-1 mb-3" style="font-size: 6rem; color: #FF834E;">João Beirão</h1>
-                            <p style="color: pink; font-size: 1.25rem;
+                            <p style="color: pink; font-size: 1.4rem;
                             font-weight: 300;">Hi there, my name is João Beirão and I'm currently a young programmer.
 Even though I'm still studying this field, I already have some pretty good skills.</p>
                         </div>
@@ -62,34 +62,95 @@ Even though I'm still studying this field, I already have some pretty good skill
                     <div class="col-lg-6">  
                         <!-- Masthead device mockup feature-->
                         <div class="masthead-device-mockup">
-                            <img src="./assets/img/MyPortrait.png" style="width: 100%;"/>
+                            <img src="./assets/img/MyPortrait.png" />
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-        <section class="cta">
+
+        <section id="aboutMe" class="cta">
           <div class="cta-content">
               <div class="container px-5">
-                  <h2 class="text-white display-1 lh-1 mb-4">
-                      Stop waiting.
-                      <br />
-                      Start building.
-                  </h2>
-                  <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://startbootstrap.com/theme/new-age" target="_blank">Download for free</a>
+                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                  <div class="col-12 col-lg-5">
+                      <h2 class="display-4 lh-1 mb-4" style="color: #FEC864;">Made in Portugal
+                      </h2>
+                      <p style="color: #FEC864; font-size: 1.4rem;
+                      font-weight: 300;">Located in the western side of Europe, Lisbon is my hometown. Even though my roots lying here, I can't wait to take a look outside the window.</p>
+                  </div>
+                  <div class="col-sm-8 col-md-6">
+                      <div><img src="./assets/img/Eletrico.png"  /></div>
+                  </div>
+                </div>
               </div>
           </div>
         </section>  
+<!--
+        <section class="bg-light">
+          <div class="container px-5">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22288%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20288%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17bead2ed23%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17bead2ed23%22%3E%3Crect%20width%3D%22288%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2296.828125%22%20y%3D%22118.8%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22288%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20288%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17bead2ed25%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17bead2ed25%22%3E%3Crect%20width%3D%22288%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2296.828125%22%20y%3D%22118.8%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22288%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20288%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17bead2ed26%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17bead2ed26%22%3E%3Crect%20width%3D%22288%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2296.828125%22%20y%3D%22118.8%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      -->
 
         <section class="bg-light">
           <div class="container px-5">
               <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
                   <div class="col-12 col-lg-5">
-                      <h2 class="display-4 lh-1 mb-4">Enter a new age of web design</h2>
-                      <p class="lead fw-normal text-muted mb-5 mb-lg-0">This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.</p>
+                      <h2 class="display-4 lh-1 mb-4">Videogames are Healthy</h2>
+                      <p class="lead fw-normal text-muted mb-5 mb-lg-0">As the young man that I am, I love spending some of my time playing video games. I may be found online by the nickname N0TN0T, usually identified by two exclamation marks.</p>
                   </div>
                   <div class="col-sm-8 col-md-6">
-                      <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="https://source.unsplash.com/u8Jn2rzYIps/900x900" alt="..." /></div>
+                      <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="./assets/img/Icon.png" alt="..." /></div>
                   </div>
               </div>
           </div>
