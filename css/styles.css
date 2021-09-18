@@ -11425,6 +11425,16 @@ section.cta {
   background-position: center;
   background-size: cover;
 }
+
+section.cta2 {
+  position: relative;
+  padding: 15rem 0;
+  background-image: url("../assets/img/cp2077_print.png");
+  background-position: center;
+  background-size: cover;
+}
+
+
 section.cta .cta-content {
   position: relative;
   z-index: 1;
